@@ -9,4 +9,4 @@
 #  $4 - Regiao da AWS onde o crawler esta instalado
 #
 
-python3 /home/nifi/scripts/startCrawler.py --nc $1 --key $2 --saKey $3 --reg $4
+python3 <path>/startCrawler.py --nc $1 --key $2 --saKey $3 --reg $4

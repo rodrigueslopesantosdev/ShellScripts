@@ -16,5 +16,5 @@
 #    $11- Breve descrição sobre a classificação.
 #    $12- Localização da tabela/arquivo no Data Lake.
 #
-python3 /home/nifi/scripts/MarcacaoLogicaZonas.py --key "$1" --saKey "$2" --reg "$3" --ht "$4" --pt "$5" --us "$6" --pw "$7" --db "$8" --tb "$9" --cf "${10}" --ds "${11}" --ph "${12}"
+python3 <path>/MarcacaoLogicaZonas.py --key "$1" --saKey "$2" --reg "$3" --ht "$4" --pt "$5" --us "$6" --pw "$7" --db "$8" --tb "$9" --cf "${10}" --ds "${11}" --ph "${12}"
 

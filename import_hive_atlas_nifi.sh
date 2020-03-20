@@ -10,7 +10,7 @@
 #
 
 #Diretorio onde os arquivos de resposta do Glue sao armazenados.
-dirArquivos=/home/nifi/scripts/arquivosRespostaGlue
+dirArquivos=<path>/arquivosRespostaGlue
 
 #Parametros do script
 atlasHostname=$1
@@ -54,6 +54,6 @@ done
 #Testa se o arquivo de autorizacao foi encontrado para que o comando via SSH abaixo posssa ser executado.
 if [ "$achouArquivo" = 1 ]
 then
-	ssh ec2-user@$atlasHostname "export HIVE_HOME=/usr/lib/hive && cd /apache/atlas/bin/ && ./import_hive_atlas_axxiom.sh $atlasUser $atlasPasswdUser"
+	ssh ec2-user@$atlasHostname "export HIVE_HOME=/usr/lib/hive && cd /apache/atlas/bin/ && ./import_hive_atlas_new.sh $atlasUser $atlasPasswdUser"
 fi
 

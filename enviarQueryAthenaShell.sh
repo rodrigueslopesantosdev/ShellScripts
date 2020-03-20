@@ -8,4 +8,4 @@
 #
 
 
-python3 /home/nifi/scripts/enviarQueryAthena.py --db $1 --key $2 --saKey $3 --reg $4
+python3 <path>/enviarQueryAthena.py --db $1 --key $2 --saKey $3 --reg $4

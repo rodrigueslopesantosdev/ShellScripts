@@ -9,4 +9,4 @@
 
 
 
-python3 /home/nifi/scripts/refreshCacheStorageGateway.py --key $1 --saKey $2 --reg $3
+python3 <path>/refreshCacheStorageGateway.py --key $1 --saKey $2 --reg $3
